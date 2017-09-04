@@ -1,5 +1,3 @@
-Release #2, December 2016
-
 This code implements various methods described in:
 
 1. C. G. Bampis, P. Maragos and A. C. Bovik, "Graph-Driven Diffusion 
@@ -18,27 +16,18 @@ Currently, this code demonstrates the following functionalities:
 
 a. apply a graph-based Random Walker (RW) and Normalized Random Walker (NRW)
 on a given image
-
 b. convert graph-based results to a pixel image
-
 c. apply diffusion schemes
 
 The following files are part of this release:
 
 1. demo_nrw.m: demo script for nrw
-
 2. Diffusion.m: script implementing RW, NRW and NLRW diffusion schemes
-
 3. funcs: folder with functions
-
 4. graph_analysis_toolbox_funcs: modified functions from Grady's Graph Analysis Toolbox:
-
 http://cns.bu.edu/~lgrady/software.html
-
 5. other_funcs: publicly available functions with supporting role
-
 6. images: test images folder
-
 7. seeds: test seeds folder
 
 The demos folder contains video demos of diffusion.
